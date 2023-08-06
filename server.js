@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended:true}))
 const baseRouter = express.Router();
 
 baseRouter.get('/greeting', (req, res) => {
-    return res.send('Hello world');
+    return res.send('Hello world!');
 });
 
 baseRouter.post('/add', (req, res) => {
